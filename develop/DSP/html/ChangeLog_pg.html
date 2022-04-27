@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="CMSIS_Logo_Final.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">CMSIS-DSP
-   &#160;<span id="projectnumber">Version 1.9.0</span>
+   &#160;<span id="projectnumber">Version 1.10.0</span>
    </div>
    <div id="projectbrief">CMSIS DSP Software Library</div>
   </td>
@@ -115,6 +115,27 @@ $(document).ready(function(){initNavTree('ChangeLog_pg.html','');});
 <div class="textblock"><table  class="cmtable" summary="Revision History">
 <tr>
 <th>Version </th><th>Description  </th></tr>
+<tr>
+<td>V1.10.0 </td><td><p class="starttd">Float promotion issues:</p>
+<ul>
+<li>Removed remaining issues of implicit float promotion (mainly in f16 code)</li>
+</ul>
+<p>Scalar versions of arm_vlog_q31 and arm_vlog_q15</p>
+<p>Synchronous Data Flow (scripts in github repository)</p>
+<p>Python wrapper available on official Python repository</p>
+<p>MFCC F32, F16, Q31 and Q15</p>
+<p>Typecasting functions for converting between f16 and s16 in scalar.</p>
+<p>More f64 functions</p>
+<p>arm_cmplx_mag_fast_q15: The original arm_cmplx_mag_q15 is now more accurate but slower.</p>
+<p>Added arm_mat_mult_opt_q31 for a faster version of arm_mat_mult_q31 when using Helium (but requiring more storage for intermediate results).</p>
+<p>arm_(min|max)_no_idx_(q7|q15|q31|f16|f32|f64)</p>
+<p>arm_abs(min|max)_no_idx_(q7|q15|q31|f16|f32|f64)</p>
+<p>arm_mse_(q7|q15|q31|f16|f32|f64)</p>
+<p class="endtd">Trigonometric functions:</p>
+<ul>
+<li>atan2 in f32, f16, q31 and q15.   </li>
+</ul>
+</td></tr>
 <tr>
 <td>V1.9.0 </td><td><p class="starttd">Re-organization of <a class="el" href="arm__math_8h.html">arm_math.h</a></p>
 <p>Re-organization of interpolation functions:</p>
@@ -358,7 +379,7 @@ $(document).ready(function(){initNavTree('ChangeLog_pg.html','');});
 </td></tr>
 <tr>
 <td>V1.4.6 (no source code change [still labeled 1.4.5]) 2015/08/26 </td><td>Modified <a class="el" href="arm__math_8h.html">arm_math.h</a><ul>
-<li>Updated function <a class="el" href="group__SQRT.html#ga5f37f479666ee8ff9711b334286c60ed">arm_sqrt_f32</a> for use with IAR.   </li>
+<li>Updated function <a class="el" href="group__SQRT.html#gaa37d8b017ef0c8d356dc98fd78e2d96b">arm_sqrt_f32</a> for use with IAR.   </li>
 </ul>
 </td></tr>
 <tr>

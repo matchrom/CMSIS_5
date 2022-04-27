@@ -33,7 +33,7 @@
   <td id="projectlogo"><img alt="Logo" src="CMSIS_Logo_Final.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">CMSIS-DAP
-   &#160;<span id="projectnumber">Version 2.1.0</span>
+   &#160;<span id="projectnumber">Version 2.1.1</span>
    </div>
    <div id="projectbrief">Interface Firmware for CoreSight Debug Access Port</div>
   </td>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('group__DAP__Config__Debug__gr.html',''
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">CMSIS-DAP Debug Unit Information<div class="ingroups"><a class="el" href="group__DAP__ConfigIO__gr.html">Configure I/O Ports and Debug Unit</a></div></div>  </div>
+<div class="title">CMSIS-DAP Debug Unit Information<div class="ingroups"><a class="el" href="group__DAP__ConfigIO__gr.html">Configure I/O ports and debug unit</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -192,7 +192,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:gaf74608e0c22e544fbd6c113136529058"><td class="mdescLeft">&#160;</td><td class="mdescRight">String indicating the Silicon Vendor. <br/></td></tr>
 <tr class="separator:gaf74608e0c22e544fbd6c113136529058"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaabcc6a42d88cc14934e723738e2ccea5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaabcc6a42d88cc14934e723738e2ccea5"></a>
-#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DAP__Config__Debug__gr.html#gaabcc6a42d88cc14934e723738e2ccea5">TARGET_DEVICE_NAME</a>&#160;&#160;&#160;&quot;Cortex-M4&quot;</td></tr>
+#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DAP__Config__Debug__gr.html#gaabcc6a42d88cc14934e723738e2ccea5">TARGET_DEVICE_NAME</a>&#160;&#160;&#160;&quot;Cortex-M&quot;</td></tr>
 <tr class="memdesc:gaabcc6a42d88cc14934e723738e2ccea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">String indicating the Target Device. <br/></td></tr>
 <tr class="separator:gaabcc6a42d88cc14934e723738e2ccea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga75509301ad45cc16a19e76939a639de2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga75509301ad45cc16a19e76939a639de2"></a>
@@ -207,10 +207,10 @@ Macros</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gad52ec88278b7b3ccbdcc10359dd8d0a8"><td class="memItemLeft" align="right" valign="top">__STATIC_INLINE uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DAP__Config__Debug__gr.html#gad52ec88278b7b3ccbdcc10359dd8d0a8">DAP_GetVendorString</a> (char *str)</td></tr>
-<tr class="memdesc:gad52ec88278b7b3ccbdcc10359dd8d0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Vendor ID string.  <a href="#gad52ec88278b7b3ccbdcc10359dd8d0a8">More...</a><br/></td></tr>
+<tr class="memdesc:gad52ec88278b7b3ccbdcc10359dd8d0a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Vendor Name string.  <a href="#gad52ec88278b7b3ccbdcc10359dd8d0a8">More...</a><br/></td></tr>
 <tr class="separator:gad52ec88278b7b3ccbdcc10359dd8d0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga947f60d7e5382cefe3087ad1fb46b13b"><td class="memItemLeft" align="right" valign="top">__STATIC_INLINE uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DAP__Config__Debug__gr.html#ga947f60d7e5382cefe3087ad1fb46b13b">DAP_GetProductString</a> (char *str)</td></tr>
-<tr class="memdesc:ga947f60d7e5382cefe3087ad1fb46b13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Product ID string.  <a href="#ga947f60d7e5382cefe3087ad1fb46b13b">More...</a><br/></td></tr>
+<tr class="memdesc:ga947f60d7e5382cefe3087ad1fb46b13b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Product Name string.  <a href="#ga947f60d7e5382cefe3087ad1fb46b13b">More...</a><br/></td></tr>
 <tr class="separator:ga947f60d7e5382cefe3087ad1fb46b13b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7b875652fd4e380af4d419bc2878ab33"><td class="memItemLeft" align="right" valign="top">__STATIC_INLINE uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__DAP__Config__Debug__gr.html#ga7b875652fd4e380af4d419bc2878ab33">DAP_GetSerNumString</a> (char *str)</td></tr>
 <tr class="memdesc:ga7b875652fd4e380af4d419bc2878ab33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Serial Number string.  <a href="#ga7b875652fd4e380af4d419bc2878ab33">More...</a><br/></td></tr>
@@ -594,7 +594,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -612,14 +612,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get Product ID string. </p>
+<p>Get Product Name string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>Pointer to buffer to store the string (max 60 characters). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -644,7 +644,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -669,7 +669,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -694,7 +694,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -719,7 +719,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -744,7 +744,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>
@@ -762,14 +762,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Get Vendor ID string. </p>
+<p>Get Vendor Name string. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">str</td><td>Pointer to buffer to store the string (max 60 characters). </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>String length. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>String length (including terminating NULL character) or 0 (no string). </dd></dl>
 
 </div>
 </div>

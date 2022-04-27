@@ -1,3 +1,3 @@
 function writeFooter()  {
-    document.write('Generated on Thu Jun 17 2021 13:54:09 for CMSIS-Zone Version 1.1.0 by Arm Ltd. All rights reserved.');
+    document.write('Generated on Wed Apr 27 2022 14:46:23 for CMSIS-Zone Version 1.2.0-alpha by Arm Ltd. All rights reserved.');
 };

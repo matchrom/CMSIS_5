@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['right_5fshift',['RIGHT_SHIFT',['../arm__nnsupportfunctions_8h.html#a26af54489c1401b91595bf0c92ef87c4',1,'arm_nnsupportfunctions.h']]]
+  ['pack_5fq7x4_5f32x1',['PACK_Q7x4_32x1',['../arm__nnsupportfunctions_8h.html#a7f8d7623a6fd3492efd9b38f45da38a6',1,'arm_nnsupportfunctions.h']]]
 ];
